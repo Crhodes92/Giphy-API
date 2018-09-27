@@ -1,0 +1,15 @@
+body {
+    background-image: url("../images/sos/sos.png");
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.jumbotron {
+    background-color: rgb(6, 48, 15);
+    color: whitesmoke; 
+
+}
+
+.makeTheseFlex {
+    display: inline-block;
+    padding: 15px;
+}
