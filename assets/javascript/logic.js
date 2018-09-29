@@ -56,16 +56,16 @@ $(document).ready(function () {
     //This section represents my attempt at pausing the gifs. For the life of me I can't seem to make it work. 
     //I think it has something to do with the AJAX call loading after this on click event is registered
     //For now I've reset the default load on the ajax call to be an animated gif to make the app as a whole more functional. 
-    $(".gifs").on("click", function() {
-        var state = $(this).attr("data-state");
-        if (state === "still") {
-          $(this).attr("src", $(this).attr("data-animate"));
-          $(this).attr("data-state", "animate");
-        } else {
-          $(this).attr("src", $(this).attr("data-still"));
-          $(this).attr("data-state", "still");
-        }
-    });
+    // $(".gifs").on("click", function() {
+    //     var state = $(this).attr("data-state");
+    //     if (state === "still") {
+    //       $(this).attr("src", $(this).attr("data-animate"));
+    //       $(this).attr("data-state", "animate");
+    //     } else {
+    //       $(this).attr("src", $(this).attr("data-still"));
+    //       $(this).attr("data-state", "still");
+    //     }
+    // });
 //Running at start of page
     createButton();
 
